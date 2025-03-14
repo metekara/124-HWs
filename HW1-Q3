@@ -3,11 +3,11 @@
 
 int main( void )
 {
-	double popularity,size;
+	int popularity,size;
 	printf("Enter the populartiy:\n");
-	scanf("%lf",&popularity);
+	scanf("%d",&popularity);
 	printf("Enter the size:\n");
-	scanf("%lf",&size);
+	scanf("%d",&size);
 	printf("Homevalue is %.f",(pow(popularity,3) + pow(size,2)) * 10000);
 	return 0;
 } 
