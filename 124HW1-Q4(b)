@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+void computeHomeValue (void);
+int main( void )
+{
+	computeHomeValue();
+	return 0;} 
+void computeHomeValue (void)
+{
+	int popularity,size;
+	printf("Enter the populartiy:\n");
+	scanf("%d",&popularity);
+	printf("Enter the size:\n");
+	scanf("%d",&size);
+	printf("Homevalue is %.f",(pow(popularity,3) + pow(size,2)) * 10000);
+}
